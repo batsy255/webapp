@@ -12,8 +12,8 @@ COPY index.html .
 RUN npm install -g http-server
 
 # Expose port 8080
-EXPOSE 80
+EXPOSE 8080
 
 # Start the HTTP server
-CMD ["http-server", "-p", "80"]
+CMD ["http-server", "-p", "8080"]
 
