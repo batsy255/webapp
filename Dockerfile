@@ -8,6 +8,7 @@ WORKDIR /app
 COPY index.html .
 
 # Install the HTTP server
+RUN npm config set registry https://registry.npm.taobao.org/
 RUN npm install -g http-server
 
 # Expose port 8080
