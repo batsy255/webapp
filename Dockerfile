@@ -15,5 +15,7 @@ RUN npm install -g http-server
 EXPOSE 8080
 
 # Start the HTTP server
+# Start the HTTP server2
+# Start the HTTP server3
 CMD ["http-server", "-p", "8080"]
 
